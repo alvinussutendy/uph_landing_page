@@ -12,11 +12,6 @@
     background-color: #D2D3E8;
 }
 
-.wrapper .container{
-    position: relative;
-    min-height: 50vh;
-}
-
 .wrapper2{
     padding-top: 73px;
     padding-bottom: 72px;
@@ -43,6 +38,11 @@
 }
 
 @media screen and (min-width: 480px){
+    .wrapper .container{
+        position: relative;
+        min-height: 50vh;
+    }
+
     .wrapper .img-wrapper{
         position: absolute;
         left: 0;
@@ -82,7 +82,8 @@
 }
 
 @media screen and (max-width: 479px){
-    .wrapper{
+    .wrapper .container{
+        position: relative;
         min-height: 300px;
     }
     .wrapper .img-wrapper{
