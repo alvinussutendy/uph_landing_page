@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 479px){
     .wrapper{
-        min-height: 330px;
+        min-height: 300px;
     }
 
     .top-img{
