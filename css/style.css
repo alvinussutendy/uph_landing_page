@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'artifact';
+    src: url('../fonts/Artifact.otf');
+}
+
+.wrapper{
+    background-color: #D2D3E8;
+    min-height: 50vh;
+    position: relative;
+}
+
+.wrapper2{
+    padding-top: 73px;
+    padding-bottom: 72px;
+    background: radial-gradient(85.21% 85.21% at 50% 55.43%, rgba(210, 211, 232, 0) 24.48%, #D2D3E8 100%);
+    min-height: 50vh;
+}
+
+.wrapper2 img{
+    width: 32px;
+}
+
+.wrapper2 a{
+    margin-left: 12px;
+}
+
+.wrapper2 span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.wrapper2 .sosmed{
+    margin-top: 62px;
+}
+
+@media screen and (min-width: 480px){
+    .top-img{
+        width: 35%;
+        position: absolute;
+        bottom: 0;
+        left: 33%;
+    }
+    .wrapper2 h3{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39.01px;
+        color: #6A6A6A;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 24px;
+    }
+
+    .wrapper2 h1{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 68.26px;
+        color: #444DA1;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 24px;
+    }
+
+    .wrapper2 h2{
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 88.06px;
+        color: #6A6A6A;
+        font-family: 'artifact', sans-serif;
+    }
+    .display-mb{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .wrapper{
+        min-height: 369px;
+    }
+
+    .top-img{
+        position: absolute;
+        left: 7%;
+        bottom: 0;
+        width: 85%;
+        margin-top: 200px;
+    }
+    .wrapper2 h3{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24.38px;
+        color: #6A6A6A;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .wrapper2 h1{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39.01px;
+        color: #444DA1;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .wrapper2 h2{
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 68.05px;
+        color: #6A6A6A;
+        font-family: 'artifact', sans-serif;
+    }
+    .display-mb{
+        display: block;
+    }
+    .wrapper2 img{
+        margin-top: 16px;
+    }
+}
