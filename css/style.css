@@ -10,8 +10,11 @@
 
 .wrapper{
     background-color: #D2D3E8;
-    min-height: 50vh;
+}
+
+.wrapper .container{
     position: relative;
+    min-height: 50vh;
 }
 
 .wrapper2{
@@ -40,11 +43,13 @@
 }
 
 @media screen and (min-width: 480px){
-    .top-img{
-        width: 35%;
+    .wrapper .img-wrapper{
         position: absolute;
+        left: 0;
         bottom: 0;
-        left: 33%;
+    }
+    .wrapper .top-img{
+        width: 40%;
     }
     .wrapper2 h3{
         font-weight: 700;
@@ -80,13 +85,13 @@
     .wrapper{
         min-height: 300px;
     }
-
-    .top-img{
+    .wrapper .img-wrapper{
         position: absolute;
-        left: 7%;
+        left: 0;
         bottom: 0;
+    }
+    .wrapper .top-img{
         width: 85%;
-        margin-top: 200px;
     }
     .wrapper2 h3{
         font-weight: 700;
