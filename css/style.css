@@ -125,4 +125,7 @@
     .wrapper2 img{
         margin-top: 16px;
     }
+    .wrapper2 a.left-sosmed{
+        margin-left: 0;
+    }
 }
